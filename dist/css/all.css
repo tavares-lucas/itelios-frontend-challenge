@@ -91,6 +91,7 @@ button.owl-dot {
 .owl-dots{
 	display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .fa{
