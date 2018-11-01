@@ -74,6 +74,29 @@ article.carousel-caption > h5{
     text-overflow: ellipsis;
 }
 
+button.owl-dot.active {
+    height: 15px;
+    border-radius: 50px;
+    background-color: #ccc;
+    margin: 0 1% 0 0;
+}
+
+button.owl-dot {
+    height: 15px;
+    border-radius: 50px;
+    background-color: #eee;
+    margin: 0 1% 0 0;
+}
+
+.owl-dots{
+	display: flex;
+    justify-content: center;
+}
+
+.fa{
+	color:#ccc;
+}
+
 @media all and (max-width: 600px) {
 	.col-25-small { width: 25% }
 
@@ -106,12 +129,20 @@ article.carousel-caption > h5{
 	img#desk {
     display: none !important;
 	}
+
+	.owl-nav{
+		display: none;
+	}
+	
 }
 
 @media all and (min-width: 721px) {
 	
 	img#mobi {
     display: none !important;
+	}
+	.owl-dots{
+	display: none;
 	}
 }
 
